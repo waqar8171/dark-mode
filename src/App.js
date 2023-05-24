@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className={dark ? "App dark-mode" : "App" }>
-      <div className="nav" setMode={{ color: App === 'dark' ? 'white' : 'black'}}>
+      <div className="nav">
         <label className="switch">
           <input
             type="checkbox"
